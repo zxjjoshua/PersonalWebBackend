@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+
+  main:
+    allow-bean-definition-overriding: true
+
+  jpa:
+    show-sql: true
+#db:
+#  driverClass: org.postgresql.Driver
+#  url: jdbc:postgresql://localhost:5432/Blog
+#  username: Blog
+#  password: Blog

@@ -1,0 +1,12 @@
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence">
+    <persistence-unit name="WebServicePU">
+        <class>com.WebServiceApp</class>
+        <class>com.Configuration.DataSourceConfig</class>
+        <properties>
+            <property name="toplink.jdbc.driver" value="org.postgresql.Driver" />
+            <property name="toplink.jdbc.url" value="jdbc:postgresql://localhost:5432/Blog" />
+            <property name="toplink.jdbc.user" value="Blog" />
+            <property name="toplink.jdbc.password" value="Blog" />
+        </properties>
+    </persistence-unit>
+</persistence>
